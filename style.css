@@ -23,8 +23,7 @@
   li {
     list-style: none;
   }
-  
-  /* Header */
+
   header h1 {
     text-align: center;
     margin: 2rem;
@@ -68,7 +67,7 @@
     margin: 2rem 0;
   }
   
-  /* Footer */
+
   
   footer {
     text-align: center;
@@ -93,7 +92,21 @@
     display: inline;
   }
   
-  img {
-    width: 40px;
+ footer img{
+   width: 40px;
+ }
+
+  .images img {
+    align-items: center;
+    margin: auto;
+    width: 90%;
     padding: 1rem 0.2rem;
+    max-width: 100px;
+  }
+
+  .loss-img{
+    display: none;
+  }
+  .profit-img{
+    display: none;
   }
